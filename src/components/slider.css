@@ -1,0 +1,49 @@
+/* Slider container */
+.slider-container {
+    width: 10%; /* Adjust width as needed */
+    margin: 0 auto; /* Center the slider */
+  }
+  
+  /* Slide item */
+  .slick-slide {
+    margin: 0 10px; /* Adjust spacing between slides */
+  }
+  
+  /* Slide image */
+  .slick-slide img {
+    width: 100%; /* Ensure images fill their container */
+    border-radius: 5px; /* Add border radius for rounded corners */
+  }
+  
+  /* Slide dots */
+  .slick-dots {
+    bottom: 10px; /* Adjust position of dots */
+  }
+  
+  /* Individual dot */
+  .slick-dots li button::before {
+    color: #fff; /* Change dot color */
+    font-size: 10px; /* Adjust dot size */
+  }
+  
+  /* Active dot */
+  .slick-dots li.slick-active button::before {
+    color: #007bff; /* Change color of active dot */
+  }
+.about-us {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.about-us h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  text-align: center;
+  font-size: 1.1em;
+  color: #555;
+}
+  

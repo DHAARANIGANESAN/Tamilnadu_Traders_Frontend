@@ -1,0 +1,39 @@
+.marquee-container {
+    overflow: hidden;
+    width: 100%;
+    padding: 20px; /* Add padding for spacing */
+  }
+  
+  .marquee {
+    white-space: nowrap;
+    animation: marquee 30s linear infinite; /* Increase animation duration */
+  }
+  
+  .image-container {
+    display: inline-block;
+    margin-right: 80px; /* Adjust margin for spacing */
+    text-align: center; /* Center the image name */
+  }
+  
+  .image-container p {
+    font-family:'Times New Roman';
+    font-size: 24px; /* Increase font size for image names */
+    font-weight: bold;
+    margin-top: 10px; /* Add margin for spacing */
+    color: black; 
+  }
+  
+  .image-container img {
+    width: 150px; /* Increase image size */
+    margin-bottom: 10px; /* Add margin below the image */
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

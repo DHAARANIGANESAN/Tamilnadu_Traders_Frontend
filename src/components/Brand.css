@@ -1,0 +1,19 @@
+.brand-section {
+    text-align: center;
+  }
+  
+  .brand-card {
+    display: inline-block;
+  }
+  
+  .brand-card img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px; 
+  }
+  
+  .brand-card img:last-child {
+    margin-right: 0;
+  }

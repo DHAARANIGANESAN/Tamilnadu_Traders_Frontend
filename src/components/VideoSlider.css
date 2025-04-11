@@ -1,0 +1,26 @@
+/* VideoSlider.css */
+
+.video-slider-container {
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  .video-slide {
+    outline: none; /* Remove outline on slide focus */
+    width: 100%; /* Full width */
+  }
+  
+  .video-slide iframe {
+    width: calc(100% - 20px); /* Adjust for small space from full screen */
+    margin: 0 10px; /* Add space around the video */
+  }
+  
+  /* Customize slider dots */
+  .slick-dots {
+    bottom: 10px;
+  }
+  
+  .slick-dots li button:before {
+    color: #fff; /* Change dot color */
+  }
+  
