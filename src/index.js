@@ -29,7 +29,8 @@ import ProductListScreen from './screens/admin/ProductListScreen';
 import ProductEditScreen from './screens/admin/ProductEditScreen';
 import UserListScreen from './screens/admin/UserListScreen';
 import UserEditScreen from './screens/admin/UserEditScreen';
-import Slider from './components/Home_Slider'
+import Slider from './components/Home_Slider';
+import PaymentPage from './screens/PaymentPage';
 
 import store from './store';
 import { Provider } from 'react-redux';
@@ -56,6 +57,8 @@ const router = createBrowserRouter(
         <Route path='/shipping' element={<ShippingScreen />} />
         <Route path='/payment' element={<PaymentScreen />} />
         <Route path='/placeorder' element={<PlaceOrderScreen />} />
+        <Route path="/paymentgateway" element={<PaymentPage />} />
+
         <Route path='/order/:id' element={<OrderScreen />} />
         <Route path='/profile' element={<ProfileScreen />} />
       </Route>
